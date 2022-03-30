@@ -482,3 +482,35 @@ h1{
       justify-content: space-between;
       margin: auto 350px;
   }
+
+  .card-aprovados{
+    margin: 0px 350px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-aprovados img{
+      width: auto;
+      height: 80px;
+      border-radius: 50px;
+  }
+
+  .class-card-aprovados{
+      display: grid;
+      grid-template-columns: auto auto;
+      background-color: #eaf4f7;
+      margin: 15px 15px 0px 0px;
+      border-radius: 5px;
+      height: 180px;
+  }
+
+  .grid-img-aprovados{
+      display: flex;
+      align-items: center;
+      margin: 0px 20px;
+  }
+  .grid-text-aprovados{
+      font-size: 13px;
+      margin: 15px 15px;
+
+  }

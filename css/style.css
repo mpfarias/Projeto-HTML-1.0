@@ -509,8 +509,14 @@ h1{
       align-items: center;
       margin: 0px 20px;
   }
-  .grid-text-aprovados{
+  .grid-text-aprovados-span{
       font-size: 13px;
       margin: 15px 15px;
-
+      border: 1px solid red;
+  }
+  .grid-text-aprovados-p{
+    border: 1px solid red;
+    vertical-align: bottom;
+    line-height: 1;
+    display: inline-block;
   }

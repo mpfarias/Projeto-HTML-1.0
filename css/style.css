@@ -499,24 +499,32 @@ h1{
       display: grid;
       grid-template-columns: auto auto;
       background-color: #eaf4f7;
-      margin: 15px 15px 0px 0px;
+      margin: 15px 20px 0px 0px;
       border-radius: 5px;
       height: 180px;
+      width: 350px;
   }
 
   .grid-img-aprovados{
       display: flex;
       align-items: center;
-      margin: 0px 20px;
+      margin: 0px 10px;
   }
-  .grid-text-aprovados-span{
+  .grid-text-aprovados{
       font-size: 13px;
-      margin: 15px 15px;
-      border: 1px solid red;
+      margin: 15px 5px;
+      height: 150px;
   }
-  .grid-text-aprovados-p{
-    border: 1px solid red;
-    vertical-align: bottom;
-    line-height: 1;
-    display: inline-block;
+
+  .aprovados-span{
+    width: auto;
+    margin-right: 20px;
+    
+  }
+  .aprovados-p{
+      margin-top: 15%;
+      display: block;
+      line-height: 0.7;
+      width: auto;
+      margin-right: 25px;
   }

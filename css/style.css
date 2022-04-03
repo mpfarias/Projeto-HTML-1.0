@@ -376,7 +376,7 @@ h1 {
     border-radius: 5px;
     height: 35px;
     width: 200px;
-    background-color: #00BFFF;
+    background-color: #35abfc;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -566,9 +566,11 @@ h1 {
 .card-07-text p {
     font-size: 12px;
 }
-.card-07-text h4{
+
+.card-07-text h4 {
     font-weight: 600;
 }
+
 .icon-class-07 {
     display: flex;
     align-items: center;
@@ -576,7 +578,7 @@ h1 {
     width: 65px;
     height: 65px;
     border-radius: 50px;
-    background-color: #ff7500;
+    background-color: #f1681e;
     float: left;
     margin-right: 30px;
     margin-left: 15px;
@@ -587,11 +589,79 @@ h1 {
     background-color: #ecf0f0;
 }
 
-.mouse:hover{
+.mouse:hover {
     cursor: pointer;
 }
 
 .grid-07 {
-    margin-right: 0px!important;
+    margin-right: 0px !important;
     padding-right: 10px;
+}
+
+.h4-size {
+    font-size: 20px;
+}
+
+.section-news {
+    margin: 10px 350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div-news {
+    margin-right: 20px;
+}
+
+.img-news {
+    width: 130px;
+    height: 100px;
+}
+
+.news-link:link {
+    color: #000;
+}
+
+.news-link:hover {
+    color: #8e8fec;
+}
+
+.news-link p {
+    margin-right: 30px;
+}
+
+.img-news {
+    float: left;
+    margin-right: 15px;
+}
+
+.span-class{
+    font-size:15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.span-class:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.footer-class{
+    width: 100%;
+    background-color: rgb(73,80,87,255);
+    padding-top: 70px;
+}
+
+.footer-section{
+    margin: 0px 380px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.box-footer{
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    margin-top:-100px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    width: 212px;
 }
